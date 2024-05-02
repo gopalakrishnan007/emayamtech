@@ -84,15 +84,15 @@ export default function Services(){
                         <p className='hiddentext'>Data-driven campaigns, maximize ROI.</p>
                     </div>
                 </div>
-                <div className="spt">
-                    <img src={Img8} className="spt-image" alt="..."/>
-                    <div className="spt-body">
+                <div className="spt ">
+                    <img src={Img8} className="spt-image " alt="..."/>
+                    <div className="spt-body" >
                         <p className="spt-text">Data Scrapping</p>
                         <p className='hiddentext'>Extract valuable insights, gain strategic edge.</p>
                     </div>
                 </div>
             </div>
-            <div className='web-overall pad'>
+            <div className='web-overall pad pink-bg white'>
                 <h2>Web development</h2>
                 <p>Your website serves as the virtual storefront of your business.
                      Our expert team specializes in crafting visually stunning and 
@@ -112,7 +112,7 @@ export default function Services(){
                     </div>
                     
             </div>
-            <div className='erp bg-change pad'>
+            <div className='erp bg-change pad '>
                 <h2>Enterprise Resource Management</h2>
                 <p>Efficiently managing your business operations is crucial for sustained
                      growth and success. Our comprehensive ERP solutions integrate various 
@@ -126,9 +126,9 @@ export default function Services(){
                         <img src={Img14} className='erp-image' alt="" />
                      </div>
             </div>
-            <div className='pad'>
+            <div className='pad pink-bg'>
                 <div className='row '>
-                    <div className='col-lg-6 '>
+                    <div className='col-lg-6 white '>
                         <h2>Data Server</h2>
                         <p>Data is the lifeblood of modern businesses, and safeguarding it is 
                             paramount. Our secure and reliable data servers provide a robust 
@@ -160,7 +160,7 @@ export default function Services(){
                 </div>
             </div>
             <div  className='pad pink-bg'>
-                <div className='row '>
+                <div className='row white'>
                     <div className='col-lg-6 '>
                         <h2>Data Scraping</h2>
                         <p>In today's data-driven world, access to actionable insights is
@@ -192,8 +192,8 @@ export default function Services(){
                     
                 </div>
             </div>
-            <div className='pad row'>
-                <div className='col-lg-6'>
+            <div className='pad pink-bg row'>
+                <div className='col-lg-6 white'>
                     <h2>Social Media Management</h2>
                     <p>In a world where social media reigns supreme, leveraging these
                          platforms effectively can significantly impact your brand's visibility 
@@ -204,7 +204,7 @@ export default function Services(){
                           with your audience, 
                         foster brand loyalty, and drive measurable results.</p>
                 </div>
-                <div className='soc-overall col-lg-6  center' >
+                <div className='soc-overall col-lg-6 white center' >
                     <div className='soc-link-cnt center'>
                         <img className='soc-image' src={Img19} alt="" />
                         <p  className=' soc-text'>Linkedin</p>

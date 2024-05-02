@@ -78,7 +78,13 @@ h1 , h2{
     
 }
 .pink-bg{
-    background-color: #A43791;
+    background-color: #a53892  ;
+}
+#wht{
+    color: white;
+}
+.white{
+    color: white !important;
 }
 .spt:hover .spt-image{
     transform:scale(1.1) ;
@@ -145,20 +151,41 @@ h1 , h2{
     100%   { transform: translate(0, -0px); }    
 }
 .erp-image:hover{
-    animation: mymoves 1.5s ;
+    animation: mymoves 2s ;
     animation-iteration-count: 1;
+    animation-timing-function: linear;
 }
 @keyframes mymoves{
     0%{
         transform: rotateY(0deg);
     }
     
+    20%{
+        transform: rotateY(45deg);
+    }
+    30%{        
+        transform: rotateY(90deg);
+    }
+    40%{
+        transform: rotateY(135deg);
+    }
     50%{
         transform: rotateY(180deg);
     }
-    
-    100%{
+    60%{
+        transform: rotateY(225deg);
+    }
+    70%{
+        transform: rotateY(270deg);
+    }
+    80%{
+        transform: rotateY(315deg);
+    }
+    90%{
         transform: rotateY(360deg);
+    }
+    100%{
+        transform: rotateY(365deg);
     }
 }
 .data-image{

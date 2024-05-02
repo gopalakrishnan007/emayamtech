@@ -1,3 +1,6 @@
 nav{
     padding:  2% 10% !important;
 }
+.btn:hover{
+    background-color: #a53892;
+}
