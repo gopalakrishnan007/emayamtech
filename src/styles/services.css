@@ -4,10 +4,7 @@
     font-family: "Roboto", sans-serif;
     
 }
-.title{
-    background-color: black;
-    /* padding: 0 5%; */
-}
+
 .servicesimage{
     width: 400px;
     border: none;
@@ -35,7 +32,7 @@ h1 , h2{
     border-radius: 30px;
     /* borderhe: solid 2px; */
     margin: 0 20px 20px 20px;
-
+    overflow: hidden;
 }
 .overalltitlesection{
     color: white;
@@ -43,7 +40,7 @@ h1 , h2{
 .spt-image{
     position: absolute;
     top: 0;
-    width: 16rem;
+    width: 14rem;
 }
 .spt-text{
     margin: 0;
@@ -91,7 +88,7 @@ h1 , h2{
     transition: transform 0.5s;
 }
 .spt-overall{
-    background-color: rgb(0, 0, 0)  ;
+    /* background-color: rgb(0, 0, 0)  ; */
     display: flex;
     flex-wrap: wrap;
 }
@@ -218,4 +215,15 @@ h1 , h2{
 }
 .soc-text{
     margin: 20px 10px;
+}
+.grand{
+    background-color: #828eca;
+    background-image: linear-gradient(43deg, #828eca 0%, #cc76c6 46%, #ffe5b4 100%);
+}
+.regrand{
+    background-color: #C850C0;
+    background-image: linear-gradient(43deg, #FFCC70 0%, #4158D0 46%, #C850C0 100%);
+}
+.dgi-cnt h4{
+    margin: 0 30px;
 }

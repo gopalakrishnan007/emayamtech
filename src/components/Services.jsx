@@ -1,22 +1,27 @@
 import Img1 from '../assests/img1.png'
 import '../styles/services.css'
-import Img2 from '../assests/1.png'
+import Webdevimg from '../assests/webdevelopment.png' //img2
+//import Img2 from '../assests/1.png'
 import Img3 from '../assests/2.png'
-import Img4 from '../assests/3.png'
-import Img5 from '../assests/4.png'
+import Erpimg from '../assests/erp.png' //img4
+//import Img4 from '../assests/3.png'
+import Dataserverimg from '../assests/dataserver.png'//img5
+//import Img5 from '../assests/4.png'
 import Img6 from '../assests/5.png'
-import Img7 from '../assests/6.png'
-import Img8 from '../assests/7.png'
+import Emailimg from '../assests/email.png' //img7
+// import Img7 from '../assests/6.png'
+import Dataimg from '../assests/data.png'
+// import Img8 from '../assests/7.png'
 import Img9 from '../assests/webimg1.png'
 import Img10 from '../assests/webimg2.png'
 import Img11 from '../assests/webimg3.png'
 import Img12 from '../assests/erp-img1.png'
 import Img13 from '../assests/erp-img2.png'
 import Img14 from '../assests/erp-img3.png'
-import Img15 from '../assests/data.jpg'
-import Img16 from '../assests/email.jpg'
-import Img17 from '../assests/scrapping.jpg'
-import Img18 from '../assests/watsmm.jpg'
+import Img15 from '../assests/data.png'
+import Img16 from '../assests/email.png'
+import Img17 from '../assests/scrapping.png'
+import Img18 from '../assests/watsmm.png'
 import Img19 from '../assests/linkedin.png'
 import Img20 from '../assests/facebook.png'
 import Img21 from '../assests/whatsapp.png'
@@ -27,7 +32,10 @@ import Img22 from '../assests/insta.webp'
 export default function Services(){
     return(
         <>
-        <div className="services">
+        <div className=" grand services">
+            <div className='grand'>
+
+           
             <div className='row  pad title'>
                 <div className='col-md-6 overalltitlesection'>
                     <h1 className='services-title'>Empowering Businesses Digitally</h1>
@@ -41,58 +49,76 @@ export default function Services(){
                     <img src={Img1} className='servicesimage hideinmob' alt="services-image" />
                 </div>
             </div>
-            <div className='spt-overall center pad '>
+            <div className='spt-overall  center pad '>
                 <div className="spt">
-                    <img src={Img2} className="spt-image" alt="..."/>
+                <div className='center'>
+                    <img src={Webdevimg} className="spt-image" alt="..."/>
+                </div>
                     <div className="spt-body">
                         <p className="spt-text">Web development</p>
                         <p className='hiddentext'>Craft impactful digital solutions.</p>
                     </div>
                 </div>
                 <div className="spt">
+                    <div className='center'>
                     <img src={Img3} className="spt-image" alt="..."/>
+                    </div>
                     <div className="spt-body">
                         <p className="spt-text">Social Media Management</p>
                         <p className='hiddentext'>Cultivate brand awareness, drive engagement.</p>
                     </div>
                 </div>
                 <div className="spt">
-                    <img src={Img4} className="spt-image" alt="..."/>
+                    <div className='center'>
+                        <img src={Erpimg} className="spt-image" alt="..."/>
+                    </div>
                     <div className="spt-body">
                         <p className="spt-text">ERP</p>
                         <p className='hiddentext'>Optimize operations, empower strategic growth.</p>
                     </div>
                 </div>
                 <div className="spt">
-                    <img src={Img5} className="spt-image" alt="..."/>
+                <div className='center'>
+                    <img src={Dataserverimg} className="spt-image" alt="..."/>
+                </div>
                     <div className="spt-body">
                         <p className="spt-text">Data Server</p>
                         <p className='hiddentext'>Secure data foundation, drive informed decisions.</p>
                     </div>
                 </div>
                 <div className="spt">
+                <div className='center'>
+
                     <img src={Img6} className="spt-image" alt="..."/>
+                    </div>
                     <div className="spt-body">
                         <p className="spt-text">Whatsapp Marketing</p>
                         <p className='hiddentext'>Targeted outreach, strengthen connections.</p>
                     </div>
                 </div>
                 <div className="spt">
-                    <img src={Img7} className="spt-image" alt="..."/>
+                <div className='center'>
+
+                    <img src={Emailimg} className="spt-image center" alt="..."/>
+                    </div>
                     <div className="spt-body">
                         <p className="spt-text">Email Marketing</p>
                         <p className='hiddentext'>Data-driven campaigns, maximize ROI.</p>
                     </div>
                 </div>
                 <div className="spt ">
-                    <img src={Img8} className="spt-image " alt="..."/>
+                    <div className='center'>
+
+                    <img src={Dataimg} className="spt-image " alt="..."/>
+                    </div>
                     <div className="spt-body" >
                         <p className="spt-text">Data Scrapping</p>
                         <p className='hiddentext'>Extract valuable insights, gain strategic edge.</p>
                     </div>
                 </div>
             </div>
-            <div className='web-overall pad pink-bg white'>
+            </div>
+            <div className='web-overall pad grand'>
                 <h2>Web development</h2>
                 <p>Your website serves as the virtual storefront of your business.
                      Our expert team specializes in crafting visually stunning and 
@@ -120,13 +146,13 @@ export default function Services(){
                       and more, into a centralized system. With real-time insights and 
                       streamlined processes, you can enhance productivity, reduce costs,
                      and make informed decisions that propel your business forward.</p>
-                     <div className='center'>
+                     <div className='center cnt'>
                         <img src={Img12} className='erp-image' alt="" />
                         <img src={Img13} className='erp-image' alt="" />
                         <img src={Img14} className='erp-image' alt="" />
                      </div>
             </div>
-            <div className='pad pink-bg'>
+            <div className='pad bg-change'>
                 <div className='row '>
                     <div className='col-lg-6 white '>
                         <h2>Data Server</h2>
@@ -140,6 +166,47 @@ export default function Services(){
                     <div  className='col-lg-6 center animate'>
                         <img className='data-image animate' src={Img15} alt="" />
                     </div>
+                </div>
+            </div>
+            <div className='pad bg-change row'>
+                <div className='col-lg-6 white'>
+                    <h2>Social Media Management</h2>
+                    <p>In a world where social media reigns supreme, leveraging these
+                         platforms effectively can significantly impact your brand's visibility 
+                         and engagement. Our social media management services encompass 
+                         strategic content creation, community engagement, and targeted 
+                         advertising across popular platforms such as YouTube, LinkedIn, 
+                         Facebook, and Instagram. We help you build meaningful connections
+                          with your audience, 
+                        foster brand loyalty, and drive measurable results.</p>
+                </div>
+                <div className='soc-overall col-lg-6 white center' >
+                    <div className='soc-link-cnt center'>
+                        <img className='soc-image' src={Img19} alt="" />
+                        <p  className=' soc-text'>Linkedin</p>
+                    </div>
+                    <div className='soc-link-cnt center'>
+                        <img className='soc-image' src={Img20} alt="" />
+                        <p  className=' soc-text'>Facebook</p>
+                    </div>
+                    <div className='soc-link-cnt center'>
+                        <img className='soc-image' src={Img21} alt="" />
+                        <p  className=' soc-text'>Whatsapp</p>
+                    </div>
+                    <div className='soc-link-cnt center'>
+                        <img className='soc-image' src={Img22} alt="" />
+                        <p className=' soc-text'>Instagram</p>
+                    </div>
+                </div>
+            </div>
+            <div className='pad white dgi' >
+                
+                    <h2 className='center'>Digital Marketing</h2>
+                
+                <div className='center pad dgi-cnt'>
+                    <h4>WhatsApp Blast</h4>
+                    <h4>Data Scraping</h4>
+                    <h4>Email Blasting</h4>
                 </div>
             </div>
             <div className='pad bg-change'>
@@ -159,7 +226,7 @@ export default function Services(){
                     
                 </div>
             </div>
-            <div  className='pad pink-bg'>
+            <div  className='pad bg-change'>
                 <div className='row white'>
                     <div className='col-lg-6 '>
                         <h2>Data Scraping</h2>
@@ -192,38 +259,8 @@ export default function Services(){
                     
                 </div>
             </div>
-            <div className='pad pink-bg row'>
-                <div className='col-lg-6 white'>
-                    <h2>Social Media Management</h2>
-                    <p>In a world where social media reigns supreme, leveraging these
-                         platforms effectively can significantly impact your brand's visibility 
-                         and engagement. Our social media management services encompass 
-                         strategic content creation, community engagement, and targeted 
-                         advertising across popular platforms such as YouTube, LinkedIn, 
-                         Facebook, and Instagram. We help you build meaningful connections
-                          with your audience, 
-                        foster brand loyalty, and drive measurable results.</p>
-                </div>
-                <div className='soc-overall col-lg-6 white center' >
-                    <div className='soc-link-cnt center'>
-                        <img className='soc-image' src={Img19} alt="" />
-                        <p  className=' soc-text'>Linkedin</p>
-                    </div>
-                    <div className='soc-link-cnt center'>
-                        <img className='soc-image' src={Img20} alt="" />
-                        <p  className=' soc-text'>Facebook</p>
-                    </div>
-                    <div className='soc-link-cnt center'>
-                        <img className='soc-image' src={Img21} alt="" />
-                        <p  className=' soc-text'>Whatsapp</p>
-                    </div>
-                    <div className='soc-link-cnt center'>
-                        <img className='soc-image' src={Img22} alt="" />
-                        <p className=' soc-text'>Instagram</p>
-                    </div>
-                </div>
-            </div>
-            <div className='center bottom'>
+
+            <div className='center bottom  regrand'>
                 bottom padding sater irevar
             </div>
         </div>
