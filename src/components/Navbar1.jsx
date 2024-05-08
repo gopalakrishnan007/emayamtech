@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../styles/navbar1.css";
-
+import Img1 from '../assests/logo.png'
 function Navbar1() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,7 +11,7 @@ function Navbar1() {
   return (
     <nav>
       <a href="/index.html">
-        <img src="/src/images/Logo.png" alt="Logo" />
+        <img src={Img1} alt="Logo" />
       </a>
       <ul className="nav-list">
         <li>

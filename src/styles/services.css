@@ -1,13 +1,30 @@
 .services{
-    
     overflow:hidden ;
-    font-family: "Roboto", sans-serif;
-    
+    font-family: "Roboto", sans-serif;   
+}
+.services-title{
+    margin-bottom: 35px;
+    padding-top: 60px !important;
 }
 
+.linehgt{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+.img-fluid {
+   justify-content: end;
+}
 .servicesimage{
     width: 400px;
     border: none;
+    margin-top: 10px;
+}
+.btmsp{
+    margin-bottom: 15px;
+}
+.web{
+    text-align: center;
 }
 h1 , h2{
     font-family: "Open Sans", sans-serif;
@@ -18,9 +35,16 @@ h1 , h2{
     justify-content: center;
     align-items: center;
 }
+.erp{
+    text-align: center;
+}
 .bottom{
     height: 200px;
 
+}
+
+.dgi-overall{
+    margin-top: 75px !important;
 }
 
 .spt{
@@ -45,20 +69,25 @@ h1 , h2{
 .spt-text{
     margin: 0;
     font-weight: 600;
+    font-size: 16px;
 }
 .pad{
     padding: 30px 5%;
+}
+.clr{
+    color: white;
 }
 
 .spt-body{
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: white;
+    color: white;
+    /* background-color: white; */
     width: 16rem;
     padding: 10px 30px;
     border-radius: 0 0 30px 30px;
-    background-color: rgb(218, 255, 255);
+    background-color: #a53892;
 }
 .spt:hover{
     .hiddentext{
@@ -109,20 +138,34 @@ h1 , h2{
 }
 .webimage{
     width: 100%;
-    /* height: 15rem; */
     object-fit:cover;  
-    /* overflow-y: scroll; */
 }
 .img-cnt{
-    /* display: flex; */
-    width: 15rem;
-    height: 20rem;
+    width: 20rem;
+    height: 28rem;
     margin: 20px;
     overflow-y: scroll;
+    
+}
+.dtser{
+    margin-top: 60px;
 }
 
-.img-cnt::-webkit-scrollbar{
-    display: none;
+.dt-cnt{
+   text-align: center;
+}
+
+.web-btn{
+    margin-top: 20px;
+    background-color: #a53892;
+    border: 2px solid #a53892;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 8px 25px;
+    font-weight: 600;
+}
+.web-btn:hover{
+    border: 2px solid #a53892;
 }
 .cnt{
     display: flex;
@@ -130,12 +173,11 @@ h1 , h2{
 }
 .bg-change{
     background-color: black;
-    color: white;
 }
 .erp-image{
     /* border-radius: 50%; */
-    width: 200px;
-    margin: 40px;
+    width: 250px;
+    margin: 20px;
     /* border: solid 2px; */
    
 }
@@ -186,7 +228,7 @@ h1 , h2{
     }
 }
 .data-image{
-    width: 400px;
+    width: 350px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -200,8 +242,20 @@ h1 , h2{
 .soc-overall{
     display: flex;
     flex-wrap: wrap;
+
     /* width: 70%; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+}
+
+.soc-des{
+    text-align: center  ;
+    margin-top: 20px;
+}
+.soc-el1{
+    margin-left: 20px;
+}
+.soc-el2{
+    margin-left: 190px;
 }
 .soc-image{
     width: 50px ;   
@@ -211,6 +265,7 @@ h1 , h2{
 }
 .soc-link-cnt{
     display: flex;
+    margin: 40px 0;
     /* align-items: center; */
 }
 .soc-text{
@@ -224,6 +279,8 @@ h1 , h2{
     background-color: #C850C0;
     background-image: linear-gradient(43deg, #FFCC70 0%, #4158D0 46%, #C850C0 100%);
 }
-.dgi-cnt h4{
-    margin: 0 30px;
+.dgi-cnt {
+   width: 90%;
+   text-align: center;
+   
 }
