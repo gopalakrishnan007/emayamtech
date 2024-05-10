@@ -48,8 +48,6 @@ h1 , h2{
 }
 
 .spt{
-    width: 16rem;
-    height: 16rem;
     position: relative;
     background-color: white  ;
     transition: transform 2s;
@@ -64,7 +62,7 @@ h1 , h2{
 .spt-image{
     position: absolute;
     top: 0;
-    width: 14rem;
+  
 }
 .spt-text{
     margin: 0;
@@ -124,16 +122,83 @@ h1 , h2{
 
 /* large screen */
 @media only screen and (min-width: 993px){
-
+    .erp-image{
+        width: 250px;
+        margin: 20px; 
+    }
+    .showobj{
+        display: none;
+    }
+    .soc-el1{
+        margin-left: 20px;
+    }
+    .soc-el2{
+        margin-left: 190px;
+    }
+    .data-image{
+        width: 350px;
+    }
+    .spt{
+        width: 16rem;
+        height: 16rem;
+    }
+    .spt-image{
+        width: 14rem;
+    }
 }
 /* medium screen */
 @media only screen and (min-width: 577px) and (max-width: 992px){
-   
+    .erp-image{
+        width: 250px;
+        margin: 20px; 
+    }
+    .showobj{
+        display: none;
+    }
+    .soc-el1{
+        margin-left: 20px;
+    }
+    .soc-el2{
+        margin-left: 190px;
+    }
+    .data-image{
+        width: 350px;
+    }
+    .spt{
+        width: 16rem;
+        height: 16rem;
+    }
+    .spt-image{
+        width: 14rem;
+    }
 }
 /* mobile screen */
 @media only screen and (max-width: 576px) {
     .hideinmob{
         display: none;
+    }
+    .hideobj{
+        display: none ;
+    }
+    .erp-image {
+        width: 200px;
+        margin: 5px;
+    }  
+    .soc-el1{
+        margin-left: 0px;
+    }
+    .soc-el2{
+        margin-left: 10px;
+    }
+    .data-image{
+        width: 250px;
+    }
+    .spt{
+        width: 14rem;
+        height: 14rem;
+    }
+    .spt-image{
+        width: 12rem;
     }
 }
 .webimage{
@@ -174,13 +239,7 @@ h1 , h2{
 .bg-change{
     background-color: black;
 }
-.erp-image{
-    /* border-radius: 50%; */
-    width: 250px;
-    margin: 20px;
-    /* border: solid 2px; */
-   
-}
+
 .animate{
     animation: float1 infinite;
 }
@@ -228,7 +287,6 @@ h1 , h2{
     }
 }
 .data-image{
-    width: 350px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -242,21 +300,13 @@ h1 , h2{
 .soc-overall{
     display: flex;
     flex-wrap: wrap;
-
-    /* width: 70%; */
-    /* justify-content: space-evenly; */
 }
 
 .soc-des{
     text-align: center  ;
     margin-top: 20px;
 }
-.soc-el1{
-    margin-left: 20px;
-}
-.soc-el2{
-    margin-left: 190px;
-}
+
 .soc-image{
     width: 50px ;   
 }

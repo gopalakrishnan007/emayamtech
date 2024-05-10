@@ -109,23 +109,28 @@ export default function Services(){
             </div>
             <div className='web-overall bg-change clr pad '>
                 <div className='web'>
-                <h2 className='btmsp '>WEB DEVELOPMENT</h2>
-                <p className='linehgt'>Your website serves as the virtual storefront of your business.
+                <h2 className='btmsp  '>WEB DEVELOPMENT</h2>
+                <p className='linehgt hideobj'>Your website serves as the virtual storefront of your business.
                      Our expert team specializes in crafting visually stunning and 
                      user-friendly websites that captivate your audience and drive conversions. 
                     From sleek designs to seamless navigation, we ensure that every aspect of your website reflects your 
                     brand identity and resonates with your target market.</p>
-                   
+                   <p  className='linehgt showobj'>
+                   We craft visually stunning, user-friendly websites that captivate
+                    your audience and drive conversions. With sleek designs and seamless
+                     navigation, we ensure
+                    your site reflects your brand and resonates with your target market.
+                   </p>
                 </div>
                  <div className='cnt center'>
                     <div className='img-cnt'>
                         <img className='webimage' src={Img9} alt="" />
                     </div>
-                    <div className='img-cnt'>
-                        <img className='webimage' src={Img10} alt="" />
+                    <div className='img-cnt hideobj'>
+                        <img className='webimage ' src={Img10} alt="" />
                     </div>
-                    <div className='img-cnt'>
-                        <img className='webimage' src={Img11} alt="img11" />
+                    <div className='img-cnt hideobj'>
+                        <img className='webimage ' src={Img11} alt="img11" />
                     </div>
                     </div>
                     <div className='center'>
@@ -135,12 +140,15 @@ export default function Services(){
             </div>
             <div className='erp  pad '>
                 <h2 className='btmsp'>Enterprise Resource Management</h2>
-                <p className='linehgt'>Efficiently managing your business operations is crucial for sustained
+                <p className='linehgt hideobj'>Efficiently managing your business operations is crucial for sustained
                      growth and success. Our comprehensive ERP solutions integrate various 
                      functions, including accounting, human resources, inventory management,
                       and more, into a centralized system. With real-time insights and 
                       streamlined processes, you can enhance productivity, reduce costs,
                      and make informed decisions that propel your business forward.</p>
+                <p className='linehgt showobj' >Your website is your online storefront. We specialize in creating captivating,
+                     user-friendly websites that reflect 
+                    your brand and engage your audience, ultimately driving conversions. </p>
                      <div className='center cnt'>
                         <img src={Img12} className='erp-image' alt="" />
                         <img src={Img13} className='erp-image' alt="" />
@@ -151,12 +159,16 @@ export default function Services(){
                 <div className='row '>
                     <div className='col-lg-6 white dt-cnt dtser'>
                         <h2>DATA SERVER</h2>
-                        <p className='linehgt dt-des'>Data is the lifeblood of modern businesses, and safeguarding it is 
+                        <p className='linehgt hideobj'>Data is the lifeblood of modern businesses, and safeguarding it is 
                             paramount. Our secure and reliable data servers provide a robust 
                             infrastructure for storing and accessing your valuable information.
                              Whether you're a small startup or a large enterprise, our scalable 
                              solutions ensure optimal performance and data protection, allowing you 
                             to focus on what matters most—growing your business.</p>
+                            <p  className='linehgt showobj'>Our secure data servers offer reliable storage and access
+                                 for businesses of all sizes. With scalable solutions and 
+                                 top-notch protection, you can focus on
+                                 growing your business while we safeguard your valuable information.</p>
                     </div>
                     <div  className='col-lg-6 center animate'>
                         <img className='data-image animate' src={Dataserverimg} alt="" />
@@ -193,7 +205,7 @@ export default function Services(){
                 </div>
                 <div className='col-lg-6 white soc-des'>
                     <h2>Social Media     Management</h2>
-                    <p className='linehgt'>In a world where social media reigns supreme, leveraging these
+                    <p className='linehgt hideobj'>In a world where social media reigns supreme, leveraging these
                          platforms effectively can significantly impact your brand's visibility 
                          and engagement. Our social media management services encompass 
                          strategic content creation, community engagement, and targeted 
@@ -201,12 +213,16 @@ export default function Services(){
                          Facebook, and Instagram. We help you build meaningful connections
                           with your audience, 
                         foster brand loyalty, and drive measurable results.</p>
+                        <p  className='linehgt showobj'>
+                        Effective social media management boosts your brand's visibility and engagement. 
+                        Our services include content creation, community engagement, and targeted advertising on platforms like YouTube, 
+                        LinkedIn, Facebook, and Instagram. We help you connect with your audience, foster brand loyalty, and drive results.</p>
                 </div>  
             </div>
             <div className='pad web dgi' >
                     <div>
                         <h2 className=''>Digital Marketing</h2>
-                        <p className='linehgt '>
+                        <p className='linehgt hideobj'>
                         Reach your audience where they are with our comprehensive digital marketing 
                         solutions. From strategic WhatsApp campaigns to engaging email blasts and
                         insightful data scraping services, we've got you covered. Harness the power
@@ -214,6 +230,9 @@ export default function Services(){
                             engagement, conversions, and business growth.
                         Let us help you make a meaningful impact in today's competitive landscape.
                         </p>
+                        <p className='linehgt showobj'>
+                        Reach your audience effectively with our digital marketing solutions. We offer WhatsApp campaigns, email blasts, and data scraping services to drive engagement and conversions. Harness direct communication and actionable insights to grow your business. Let us help 
+                        you make a meaningful impact in today's competitive landscape.</p>
                     </div>
                     <div className='row dgi-overall'>
                         <div className='col-lg-4'>
